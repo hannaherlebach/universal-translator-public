@@ -103,7 +103,8 @@ footer a { color: #94a3b8; }
     <h1>Universal Translator</h1>
     <p class="subtitle">Interdisciplinary Frame Translation</p>
     <nav>
-      <a href="experiments.html">Experiment Viewer</a>
+      <a href="matrix_20260529_004433_7fields.html">Matrix Experiment</a>
+      <a href="experiments.html">Pilot Experiments</a>
       <a href="arxiv.html">ArXiv Translations</a>
     </nav>
   </div>
@@ -111,8 +112,18 @@ footer a { color: #94a3b8; }
 <main class="page">
   <div class="hero">
     <p>Can knowledge from one academic field be systematically <em>translated</em> into another? This project reframes graduate-level exam questions from one subfield into the conceptual vocabulary of a second field, then tests whether a domain expert in that second field can answer them — without any knowledge of the original field.</p>
-    <a href="experiments.html" class="cta">Explore experiments →</a>
+    <a href="matrix_20260529_004433_7fields.html" class="cta">Matrix experiment results →</a>
   </div>
+
+  <section class="section">
+    <h2>Matrix experiment — 7 fields × 42 directed pairs × 50 questions</h2>
+    <div class="steps">
+      <div class="step"><div class="step-num">→</div><div class="step-body"><strong>Full pairwise design</strong>Every pair of 7 subfields tested in both directions: Probability &amp; Statistics, Thermodynamics, Neurology, Control Theory, Quantitative Economics, Psychology, Logic.</div></div>
+      <div class="step"><div class="step-num">→</div><div class="step-body"><strong>6 conditions per question</strong>Original and translated questions each answered under three personas: no persona, source-field expert, target-field expert.</div></div>
+      <div class="step"><div class="step-num">→</div><div class="step-body"><strong>Fidelity and typicality metrics</strong>Back-translation BLEU/chrF/semantic similarity, plus kNN typicality against the SuperGPQA corpus to measure how well each translation "arrived" in the target field.</div></div>
+    </div>
+    <a href="matrix_20260529_004433_7fields.html" class="view-all">View figures and translations →</a>
+  </section>
 
   <section class="section">
     <h2>How it works</h2>
@@ -126,7 +137,7 @@ footer a { color: #94a3b8; }
   </section>
 
   <section class="section">
-    <h2>Results — 67 runs, 670 questions</h2>
+    <h2>Pilot results — 67 runs (earlier design, small N)</h2>
     <div class="table-wrap">
       <table>
         <thead>
@@ -209,7 +220,7 @@ footer a { color: #94a3b8; }
   </section>
 </main>
 <footer class="page">
-  Updated 2026-05-22.&nbsp;·&nbsp;<a href="arxiv.html">ArXiv translations viewer</a>
+  Updated 2026-05-29.&nbsp;·&nbsp;<a href="arxiv.html">ArXiv translations viewer</a>
 </footer>
 </body>
 </html>
